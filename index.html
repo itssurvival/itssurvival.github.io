@@ -1,4 +1,168 @@
 <!DOCTYPE html>
-<html>
-  <h1 style="font-color: black">Test</h1>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itssurvival4 - Minecraft 1.21.4 Survival Server</title>
+    <link href="https://fonts.googleapis.com/css2?family=Minecraft&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Itssurvival4</h1>
+            <p>Minecraft Java 1.21.4 Survival Server</p>
+            <div class="server-ip-display">
+                <p>Server Address: <strong>itssurvival4.aternos.me</strong></p>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#rules">Rules</a></li>
+            <li><a href="#staff">Staff</a></li>
+            <li><a href="#join">How to Join</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>Welcome to Itssurvival4!</h2>
+                <p>A pure survival experience with a friendly community</p>
+                <div class="server-ip">
+                    <input type="text" value="itssurvival4.aternos.me" id="server-ip" readonly>
+                    <button onclick="copyIP()">Copy IP</button>
+                </div>
+                <p class="version">Minecraft Java Edition 1.21.4</p>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Our Server</h2>
+            <div class="features">
+                <div class="feature">
+                    <h3>Pure Survival</h3>
+                    <p>No pay-to-win, just classic survival gameplay with a few quality-of-life enhancements.</p>
+                </div>
+                <div class="feature">
+                    <img src="img/community.png" alt="Community Icon">
+                    <h3>Active Community</h3>
+                    <p>Join our Discord and make new friends to build and explore with.</p>
+                </div>
+                <div class="feature">
+                    <h3>Regular Updates</h3>
+                    <p>We keep the server fresh with new features and events.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="rules" class="dark-section">
+            <h2>Server Rules</h2>
+            <div class="rules-list">
+                <div class="rule">
+                    <h3>1. Be Respectful</h3>
+                    <p>No harassment, hate speech, or discrimination of any kind.</p>
+                </div>
+                <div class="rule">
+                    <h3>2. No Griefing</h3>
+                    <p>Respect other players' builds and property.</p>
+                </div>
+                <div class="rule">
+                    <h3>3. No Cheating</h3>
+                    <p>Hacked clients, x-ray, or any unfair advantages are prohibited.</p>
+                </div>
+                <div class="rule">
+                    <h3>4. Keep Chat Clean</h3>
+                    <p>No spamming, excessive caps, or inappropriate language.</p>
+                </div>
+                <div class="rule">
+                    <h3>5. Have Fun!</h3>
+                    <p>This is a game - enjoy yourself and help others enjoy it too!</p>                </div>
+            </div>
+            <p class="rules-note">Breaking these rules may result in warnings, temporary bans, or permanent bans.</p>
+        </section>
+
+        <section id="staff">
+            <h2>Meet Our Team</h2>
+            <div class="staff-members">
+                <div class="staff">
+                    <img src="https://cdn.discordapp.com/avatars/804196346013679616/28cd4a0837b9c013ef240a466da40c6a?size=1024" alt="Nico">
+                    <h3>Nico/Br0ke</h3>
+                    <p>Owner</p>
+                </div>
+                <div class="staff">
+                    <img src="https://cdn.discordapp.com/avatars/1220815793315385464/a_95866c7e028ad36f427b2b3b6965bdc8?size=1024" alt="Arwa">
+                    <h3>Arwa/NotArwa</h3>
+                    <p>Owner</p>
+                </div>
+                <div class="staff">
+                    <img src="https://github.com/itssurvival/itssurvival.github.io/blob/main/catg.png?raw=true" alt="Nny">
+                    <h3>Nny</h3>
+                    <p>Owner</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="join" class="dark-section">
+            <h2>How to Join</h2>
+            <div class="join-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <p>Make sure you have Minecraft Java Edition version 1.21.4</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <p>Open Minecraft and click "Multiplayer"</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <p>Click "Add Server" and enter the server details</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <p>Server Name: <strong>Itssurvival4</strong></p>
+                    <p>Server Address: <strong>itssurvival4.aternos.me</strong></p>
+                </div>
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <p>Click "Done" and then join the server!</p>
+                </div>
+            </div>
+            <div class="discord-join">
+                <h3>Join Our Discord</h3>
+                <a href="https://discord.gg/zFTkRzmg" class="discord-btn">Discord Server</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h3>Itssurvival4</h3>
+                <p>Minecraft Java 1.21.4 Survival Server</p>
+            </div>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#rules">Rules</a>
+                <a href="#staff">Staff</a>
+                <a href="#join">Join</a>
+            </div>
+            <div class="footer-social">
+
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Itssurvival4 Minecraft Server. All rights reserved.</p>
+            <p>Not affiliated with Mojang or Microsoft.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
